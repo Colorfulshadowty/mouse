@@ -1,0 +1,85 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.ani, Scheme.cur
+AddReg    = Scheme.Reg,Scheme2.Reg
+
+[DestinationDirs]
+Scheme.ani = 10,"%CUR_DIR%"
+Scheme.cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme2.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME_2%",,"%10%\%CUR_DIR%\%pointer_2%,%10%\%CUR_DIR%\%help_2%,%10%\%CUR_DIR%\%work_2%,%10%\%CUR_DIR%\%busy_2%,%10%\%CUR_DIR%\%Cross_2%,%10%\%CUR_DIR%\%Text_2%,%10%\%CUR_DIR%\%Hand_2%,%10%\%CUR_DIR%\%Unavailiable_2%,%10%\%CUR_DIR%\%Vert_2%,%10%\%CUR_DIR%\%Horz_2%,%10%\%CUR_DIR%\%Dgn1_2%,%10%\%CUR_DIR%\%Dgn2_2%,%10%\%CUR_DIR%\%move_2%,%10%\%CUR_DIR%\%alternate_2%,%10%\%CUR_DIR%\%link_2%"
+
+; -- Common Information
+
+[Scheme.ani]
+"AppStarting.ani"
+"Arrow.ani"
+"Arrow_2.ani"
+"Cross.ani"
+"Cross_2.ani"
+"Hand.ani"
+"Hand_2.ani"
+"IBeam.ani"
+"IBeam_2.ani"
+"NO.ani"
+"SizeAll.ani"
+"SizeNESW.ani"
+"SizeNS.ani"
+"SizeNWSE.ani"
+"SizeWE.ani"
+"UpArrow.ani"
+"UpArrow_2.ani"
+"Wait.ani"
+
+[Scheme.cur]
+"Arrow.cur"
+"Handwriting.cur"
+"Help.cur"
+"SizeAll.cur"
+"SizeNESW.cur"
+"SizeNS.cur"
+"SizeNWSE.cur"
+"SizeWE.cur"
+
+[Strings]
+CUR_DIR         = "Cursors\Drop Plus"
+SCHEME_NAME     = "Drop Plus_A"
+Pointer		= "Arrow.ani"
+Help		= "Help.cur"
+Work		= "AppStarting.ani"
+Busy		= "Wait.ani"
+Cross		= "Cross.ani"
+Text		= "IBeam.ani"
+Hand		= "Handwriting.cur"
+Unavailiable	= "NO.ani"
+Vert		= "SizeNS.ani"
+Horz		= "SizeWE.ani"
+Dgn1		= "SizeNWSE.ani"
+Dgn2		= "SizeNESW.ani"
+Move		= "SizeAll.ani"
+Alternate	= "UpArrow.ani"
+Link		= "Hand.ani"
+
+SCHEME_NAME_2     = "Drop Plus_W"
+Pointer_2		= "Arrow.cur"
+Help_2		= "Help.cur"
+Work_2		= "AppStarting.ani"
+Busy_2		= "Wait.ani"
+Cross_2		= "Cross_2.ani"
+Text_2		= "IBeam_2.ani"
+Hand_2		= "Handwriting.cur"
+Unavailiable_2	= "NO.ani"
+Vert_2		= "SizeNS.cur"
+Horz_2		= "SizeWE.cur"
+Dgn1_2		= "SizeNWSE.cur"
+Dgn2_2		= "SizeNESW.cur"
+Move_2		= "SizeAll.cur"
+Alternate_2	= "UpArrow_2.ani"
+Link_2		= "Hand_2.ani"
